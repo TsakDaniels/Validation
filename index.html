@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+    <form action="">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value=""><br>
+        <button type="button" onclick="myEmail()">Email Check</button>
+        <p id="val1"></p>
+        <br>
+    
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value=""><br>
+        <button type="button" onclick="myCountry()">Country Check</button>
+        <p id="val2"></p>
+        <br>
+
+        <label for="zipCode">Zip Code:</label>
+        <input type="text" id="zipCode" name="zipCode" value=""><br>
+        <button type="button" onclick="myZipCode()">ZipCode Check</button>
+        <p id="val3"></p>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="">
+        <br>
+        
+
+        <label for="passConf">Pass confirmation:</label>
+        <input type="password" id="passConf" name="passConf" value=""> <br>
+        <button type="button" onclick="myPassword()">Password Check</button>
+        <p id="val4"></p>
+
+        
+      </form> 
+    </div>
+      <script src="./app.js"></script>
+</body>
+</html>
